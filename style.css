@@ -1,0 +1,114 @@
+/* Fuentes */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #ff0080 0%, #7928ca 100%);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  background: repeating-linear-gradient(
+    45deg,
+    #ff69b4,
+    #ff69b4 10px,
+    #ff1493 10px,
+    #ff1493 20px
+  );
+  padding: 40px 20px;
+  box-shadow: 0 0 20px #ff69b4;
+  border-bottom: 5px solid #fff;
+}
+
+header h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px #000;
+}
+
+/* Hero Section */
+.hero {
+  margin: 60px auto;
+}
+
+button#btnSaludo {
+  background: #ffdc00;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1.8rem;
+  font-weight: 900;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #ffdc00;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3b0066;
+}
+
+button#btnSaludo:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 40px #ffea00;
+  background: #fff200;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 20px 80px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  padding: 30px;
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #ee0979;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 50px #ff6a00;
+}
+
+.card h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 5px #440047;
+}
+
+/* Footer */
+footer {
+  background: #330033;
+  color: #ffb347;
+  padding: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  box-shadow: inset 0 0 10px #ffb347;
+  border-top: 5px solid #ffb347;
+  user-select: none;
+}
